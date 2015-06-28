@@ -13,6 +13,7 @@
 		233C96191B3F482F00E55A39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 233C96181B3F482F00E55A39 /* Images.xcassets */; };
 		233C961C1B3F482F00E55A39 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 233C961A1B3F482F00E55A39 /* LaunchScreen.xib */; };
 		233C96281B3F482F00E55A39 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233C96271B3F482F00E55A39 /* HelloWorldTests.swift */; };
+		23C87D4A1B40971A00A1A12C /* person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C87D491B40971A00A1A12C /* person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		233C96211B3F482F00E55A39 /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		233C96261B3F482F00E55A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		233C96271B3F482F00E55A39 /* HelloWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldTests.swift; sourceTree = "<group>"; };
+		23C87D491B40971A00A1A12C /* person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				233C96101B3F482F00E55A39 /* Info.plist */,
+				23C87D491B40971A00A1A12C /* person.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				233C96141B3F482F00E55A39 /* ViewController.swift in Sources */,
+				23C87D4A1B40971A00A1A12C /* person.swift in Sources */,
 				233C96121B3F482F00E55A39 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +344,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +415,7 @@
 				233C962D1B3F482F00E55A39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		233C962E1B3F482F00E55A39 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +424,7 @@
 				233C96301B3F482F00E55A39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
